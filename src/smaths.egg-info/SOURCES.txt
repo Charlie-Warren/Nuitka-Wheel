@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+src/smaths/__init__.py
+src/smaths/simplemaths.py
+src/smaths.egg-info/PKG-INFO
+src/smaths.egg-info/SOURCES.txt
+src/smaths.egg-info/dependency_links.txt
+src/smaths.egg-info/requires.txt
+src/smaths.egg-info/top_level.txt

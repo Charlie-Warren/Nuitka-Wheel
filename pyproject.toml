@@ -1,0 +1,27 @@
+[project]
+name = "smaths"
+authors = [{name = "Charlie Warren", email = "c_warren1@live.com"}]
+version = "0.1.0"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = []
+
+[project.optional-dependencies]
+dev = []
+
+[build-system]
+requires = ["setuptools>=49.0", "wheel", "nuitka>=1.5.8", "toml", "mypy>=1.6.1"]
+build-backend = "nuitka.distutils.Build"
+
+#[tool.setuptools.package-data]
+[nuitka]
+no-pyi = true
+
+[tools.setuptools]
+include-package-data = true
+
+[tools.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+my_module = ["py.typed", "*.pyi", "**/*.pyi"]

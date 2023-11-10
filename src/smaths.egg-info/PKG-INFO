@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: smaths
+Version: 0.1.0
+Author-email: Charlie Warren <c_warren1@live.com>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: dev
+
+# nuitka-wheel
+Trying to build a nuitka wheel that has a correct pyi file.

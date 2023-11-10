@@ -1,0 +1,4 @@
+numpy>=1.24.2
+nuitka>=1.5.8
+mypy>=1.6.1
+build>=1.0.3
