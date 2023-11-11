@@ -1,1 +1,1 @@
-call stubgen src/smaths --include-docstrings -o .
+call stubgen src/smaths --include-docstrings -o src

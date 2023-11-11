@@ -13,7 +13,6 @@ dev = []
 requires = ["setuptools>=49.0", "wheel", "nuitka>=1.5.8", "toml", "mypy>=1.6.1"]
 build-backend = "nuitka.distutils.Build"
 
-#[tool.setuptools.package-data]
 [nuitka]
 no-pyi = true
 
@@ -24,4 +23,4 @@ include-package-data = true
 where = ["src"]
 
 [tool.setuptools.package-data]
-my_module = ["py.typed", "*.pyi", "**/*.pyi"]
+smaths = ["*.pyi", "**/*.pyi"]

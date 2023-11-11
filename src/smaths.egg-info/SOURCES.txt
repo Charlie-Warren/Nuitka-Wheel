@@ -3,7 +3,9 @@ MANIFEST.in
 README.md
 pyproject.toml
 src/smaths/__init__.py
+src/smaths/__init__.pyi
 src/smaths/simplemaths.py
+src/smaths/simplemaths.pyi
 src/smaths.egg-info/PKG-INFO
 src/smaths.egg-info/SOURCES.txt
 src/smaths.egg-info/dependency_links.txt
