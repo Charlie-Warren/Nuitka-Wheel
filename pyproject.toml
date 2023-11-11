@@ -7,10 +7,10 @@ requires-python = ">=3.8"
 dependencies = []
 
 [project.optional-dependencies]
-dev = []
+dev = ["mypy>=1.6.1"]
 
 [build-system]
-requires = ["setuptools>=49.0", "wheel", "nuitka>=1.5.8", "toml", "mypy>=1.6.1"]
+requires = ["setuptools>=49.0", "wheel", "nuitka>=1.5.8", "toml"]
 build-backend = "nuitka.distutils.Build"
 
 [nuitka]
