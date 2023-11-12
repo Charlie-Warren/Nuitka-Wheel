@@ -1,4 +1,4 @@
-# nuitka-wheel
+# Nuitka-Wheel
 As of 11 November 2023 [Nuitka](https://github.com/Nuitka/Nuitka) doesn't produce useful pyi files to allow proper typehints and docstrings in their packages.
 This project builds a simple maths project into a wheel, compiling it using Nuitka.
 
