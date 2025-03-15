@@ -1,5 +1,5 @@
 # Nuitka-Wheel
-As of 11 November 2023 [Nuitka](https://github.com/Nuitka/Nuitka) doesn't produce useful pyi files to allow proper typehints and docstrings in their packages.
+At the time of writing (11 November 2023) [Nuitka](https://github.com/Nuitka/Nuitka) doesn't produce useful pyi files to allow proper typehints and docstrings in their packages.
 This project builds a simple maths project into a wheel, compiling it using Nuitka.
 
 Stubgen, part of [mypy](https://github.com/python/mypy), is used to generate proper pyi files for the project. In 
