@@ -1,20 +1,20 @@
 [project]
 name = "smaths"
-authors = [{name = "Charlie Warren", email = "c_warren1@live.com"}]
 version = "0.1.0"
+description = "Add your description here"
 readme = "README.md"
+authors = [
+    { name = "Charlie-Warren", email = "c_warren1@live.com" }
+]
 requires-python = ">=3.8"
 dependencies = []
 
-[project.optional-dependencies]
-dev = ["mypy>=1.6.1"]
-
 [build-system]
-requires = ["setuptools>=49.0", "wheel", "nuitka>=1.5.8", "toml"]
+requires = ["setuptools>=49.0", "wheel", "nuitka>=2.1.0", "toml"]
 build-backend = "nuitka.distutils.Build"
 
 [nuitka]
-no-pyi = true
+no-pyi-file = true
 
 [tools.setuptools]
 include-package-data = true
@@ -24,3 +24,9 @@ where = ["src"]
 
 [tool.setuptools.package-data]
 smaths = ["*.pyi", "**/*.pyi"]
+
+[dependency-groups]
+dev = [
+    "mypy>=1.6.1",
+    "nuitka>=2.1.0",
+]
