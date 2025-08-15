@@ -7,9 +7,7 @@ authors = [
     { name = "Charlie-Warren", email = "c_warren1@live.com" }
 ]
 requires-python = ">=3.8"
-dependencies = [
-    "numpy",
-]
+dependencies = []
 
 [build-system]
 requires = ["setuptools>=49.0", "wheel", "nuitka>=2.1.0", "toml"]
@@ -31,5 +29,4 @@ smaths = ["*.pyi", "**/*.pyi"]
 dev = [
     "mypy>=1.6.1",
     "nuitka>=2.1.0",
-    "pytest",
 ]

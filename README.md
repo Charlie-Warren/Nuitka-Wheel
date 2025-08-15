@@ -9,6 +9,16 @@ and instead stubgen's pyi files are added as package data.
 Running [build.bat](build.bat) generates the pyi files and builds the wheel file using the pyproject.toml specifications.
 
 ## Requirements
+Install uv
 ```
-pip install .[dev]
+pipx install uv
+```
+Build a venv with requirements
+```
+uv sync
+```
+
+## Build the wheel
+```
+build.bat
 ```
