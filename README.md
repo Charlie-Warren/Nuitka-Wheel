@@ -22,3 +22,6 @@ uv sync
 ```
 build.bat
 ```
+
+# Not using uv?
+If you are not using uv as the package manager you will need to edit [build.bat](build.bat), replacing the line `call uv build` with `call python -m build`. You will also need to add `"build>=1.0.3"` to the dev dependencies.
