@@ -13,13 +13,13 @@ dependencies = []
 requires = ["setuptools>=49.0", "wheel", "nuitka>=2.1.0", "toml"]
 build-backend = "nuitka.distutils.Build"
 
-[nuitka]
+[tool.nuitka]
 no-pyi-file = true
 
-[tools.setuptools]
+[tool.setuptools]
 include-package-data = true
 
-[tools.setuptools.packages.find]
+[tool.setuptools.packages.find]
 where = ["src"]
 
 [tool.setuptools.package-data]
